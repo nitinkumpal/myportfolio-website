@@ -1,0 +1,47 @@
+.box {
+    height: 150px;
+    width: 170px;
+    border: none !important;
+    background: #08aeea50 url('/assets/img/nitinpal.JPG') no-repeat;
+    background-size: cover;
+    background-position: top -10px center;
+    background-blend-mode: multiply;
+    animation: morph 8s ease-in-out infinite;
+}
+
+@keyframes morph {
+    0% {
+        border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%;
+    }
+    50% {
+        border-radius: 30% 60% 70% 40% / 50% 60% 30% 60%;
+        /* background-image: linear-gradient(45deg, #fa88ff, #2bd2ff 50%, #2bff88  90%); */
+    }
+    100% {
+        border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%;
+    }
+}
+
+.box2 {
+    height: 265px;
+    width: 280px;
+    border: none !important;
+    background: #08aeea50 url('/assets/img/nitinpal.JPG') no-repeat;
+    background-size: cover;
+    background-position: top -10px center;
+    background-blend-mode: multiply;
+    animation: morphTwo 8s ease-in-out infinite;
+}
+
+@keyframes morphTwo {
+    0% {
+        border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%;
+    }
+    50% {
+        border-radius: 30% 60% 70% 40% / 50% 60% 30% 60%;
+        /* background-image: linear-gradient(45deg, #fa88ff, #2bd2ff 50%, #2bff88  90%); */
+    }
+    100% {
+        border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%;
+    }
+}
